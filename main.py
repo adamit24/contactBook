@@ -10,12 +10,12 @@ for i in range(num):
     names.append(name)
     phoneNumbers.append(phoneNumber)
 
-print('\nName \t\t\tPhone Number: \n')
+print('\nName: \t\t\tPhone Number: \n')
 
 for i in range(num):
     print('{} \t\t\t{}'.format(names[i], phoneNumbers[i]))
 
-searchName = input('what is the persons name?').upper()
+searchName = input('\n What is the persons name?').upper()
 
 print('Searching...')
 time.sleep(3)
